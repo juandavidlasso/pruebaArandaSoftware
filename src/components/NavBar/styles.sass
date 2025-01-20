@@ -1,0 +1,114 @@
+.navbar
+	pointer-events: all !important
+	z-index: 999 !important
+	position: relative !important
+	max-width: 100vw !important
+	height: 69px !important
+	background: #ffffff 0% 0% no-repeat padding-box !important
+	box-shadow: 0px 3px 6px #8395a7 !important
+	opacity: 1 !important
+	display: flex !important
+
+	.navbar-title
+		width: 35% !important
+		padding: 10px !important
+
+		.navbar-subtitle
+			width: 100% !important
+			height: 100% !important
+			text-align: center !important
+
+			.title-main
+				letter-spacing: 1.15px !important
+				color: #425966 !important
+				text-transform: capitalize !important
+				opacity: 1 !important
+				font-size: 40px !important
+				text-decoration: none !important
+
+			.title-submain
+				letter-spacing: 0.86px !important
+				color: #D84A4A !important
+				opacity: 1 !important
+				font-size: 30px !important
+				text-decoration: none !important
+				font-family: "Poppins", serif !important
+				font-weight: 400 !important
+				font-style: normal !important
+
+	.navbar-menu
+		width: 65% !important
+		padding: 10px !important
+		padding-right: 5% !important
+
+		.navbar-submenu
+			display: flex !important
+			height: 100% !important
+			justify-content: center !important
+			text-align: end !important
+			align-items: center !important
+			display: flex !important
+			justify-content: space-between !important
+			
+			.links
+				text-decoration: none !important
+				height: fit-content !important
+				max-width: fit-content !important
+				letter-spacing: 0px !important
+				color: #425966 !important
+				opacity: 1 !important
+				font-size: 13px !important
+				white-space: nowrap !important
+				font-family: "Poppins", serif !important
+				font-weight: 400 !important
+				font-style: normal !important
+				&:hover
+					color: #D84A4A !important
+			
+			.links-active
+				text-decoration: none !important
+				height: fit-content !important
+				max-width: fit-content !important
+				letter-spacing: 0px !important
+				opacity: 1 !important
+				font-size: 13px !important
+				white-space: nowrap !important
+				font-family: "Poppins", serif !important
+				font-weight: 400 !important
+				font-style: normal !important
+				color: #D84A4A !important
+
+	.navbar-home
+		display: none !important
+
+
+@media (max-width: 1024px)
+	.navbar
+		.navbar-menu
+			display: none !important
+
+		.navbar-title
+			width: 50% !important
+
+			.navbar-subtitle
+				text-align: left !important
+
+				.title-main
+					padding-left: 10% !important
+
+		.navbar-home
+			display: flex !important
+			width: 50% !important
+			padding: 10px !important
+			
+			.content-home
+				width: 100% !important
+				height: 100% !important
+				display: flex !important
+				align-items: center !important
+				justify-content: flex-end !important
+
+				.link-home
+					img
+						padding-right: 15px !important
+		

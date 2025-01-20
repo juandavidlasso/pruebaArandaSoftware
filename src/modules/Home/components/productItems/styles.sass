@@ -1,0 +1,70 @@
+.product-items
+	height: 170px !important
+	padding: 10px !important
+	display: none !important
+	
+	.content-items
+		height: 90% !important
+		padding: 10px !important
+		display: flex !important
+
+		.item
+			position: relative !important
+			top: -60% !important
+			width: 114px !important
+			height: 92px !important
+			background: transparent linear-gradient(180deg, #E9F1FA 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box !important
+			box-shadow: 0px 5px 9px #8395A766 !important
+			border-radius: 10px !important
+			opacity: 1 !important
+			margin: 0 auto !important
+
+			.item-img
+				height: 60% !important
+				border-top-left-radius: 10px !important
+				border-top-right-radius: 10px !important
+				display: flex !important
+				justify-content: center !important
+				align-items: center !important
+
+			.item-title
+				height: 40% !important
+				border-bottom-left-radius: 10px !important
+				border-bottom-right-radius: 10px !important
+				display: flex !important
+				justify-content: center !important
+				align-items: center !important
+
+				p
+					font-family: 'Poppins', sans-serif !important
+					font-weight: 600 !important
+					font-style: normal !important
+					letter-spacing: 0px !important
+					color: #425966 !important
+					opacity: 1 !important
+					font-size: 13px !important
+
+@media (max-width: 926px)
+	.product-items
+		display: block !important
+
+		.content-items
+			display: grid !important
+			grid-template-columns: repeat(3, 1fr) !important
+
+			.item
+				top: -70% !important
+				margin-top: 20px !important
+
+@media (min-width: 927px) and (max-width: 1024px)
+	.product-items
+		display: grid !important
+		height: 80px !important
+
+		.content-items
+			height: 60% !important
+			
+			.item
+				top: -90% !important
+				width: 106px !important
+				height: 85px !important

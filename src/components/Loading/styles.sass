@@ -1,0 +1,48 @@
+.modal
+	position: fixed !important
+	top: 0 !important
+	left: 0 !important
+	width: 100% !important
+	height: 100% !important
+	background-color: rgba(0, 0, 0, 0.5) !important
+	display: flex !important
+	justify-content: center !important
+	align-items: center !important
+	z-index: 1000 !important
+
+	.modal-content
+		background-color: white !important
+		padding: 20px !important
+		border-radius: 8px !important
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important
+		text-align: center !important
+		width: 20% !important
+		height: 20% !important
+		display: flex !important
+		align-items: center !important
+		justify-content: center !important
+
+		.loader
+			width: 65px !important
+			--b: 8px !important
+			aspect-ratio: 1 !important
+			border-radius: 50% !important
+			background: #514b82 !important
+			-webkit-mask: repeating-conic-gradient(#0000 0deg,#000 1deg 70deg,#0000 71deg 90deg), radial-gradient(farthest-side,#0000 calc(100% - var(--b) - 1px),#000 calc(100% - var(--b)))
+			-webkit-mask-composite: destination-in !important
+			mask-composite: intersect !important
+			animation: l5 1s infinite
+
+	
+@keyframes l5
+	to
+		transform: rotate(.5turn)
+
+@media (max-width: 1024px)
+	.modal
+		.modal-content
+			width: 70% !important
+			height: 20% !important
+			
+			.loader
+				width: 20% !important
