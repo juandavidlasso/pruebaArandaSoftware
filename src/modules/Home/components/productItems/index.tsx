@@ -9,7 +9,7 @@ const ProductItems: React.FC<Props> = ({}) => {
             <div className="content-items">
                 <div className="item">
                     <div className="item-img">
-                        <img src="public\assets\icons\ic_vegetarianos.svg" alt="vegetarianos" />
+                        <img src="/assets/icons/ic_vegetarianos.svg" alt="vegetarianos" />
                     </div>
                     <div className="item-title">
                         <p>Vegetarianos</p>
@@ -17,7 +17,7 @@ const ProductItems: React.FC<Props> = ({}) => {
                 </div>
                 <div className="item">
                     <div className="item-img">
-                        <img src="public\assets\icons\ic_principales.svg" alt="principales" />
+                        <img src="/assets/icons/ic_principales.svg" alt="principales" />
                     </div>
                     <div className="item-title">
                         <p>Principales</p>
@@ -25,7 +25,7 @@ const ProductItems: React.FC<Props> = ({}) => {
                 </div>
                 <div className="item">
                     <div className="item-img">
-                        <img src="public\assets\icons\ic_tortas.svg" alt="tortas" />
+                        <img src="/assets/icons/ic_tortas.svg" alt="tortas" />
                     </div>
                     <div className="item-title">
                         <p>Tortas</p>
@@ -33,7 +33,7 @@ const ProductItems: React.FC<Props> = ({}) => {
                 </div>
                 <div className="item">
                     <div className="item-img">
-                        <img src="public\assets\icons\ic_rapida.svg" alt="rapida" />
+                        <img src="/assets/icons/ic_rapida.svg" alt="rapida" />
                     </div>
                     <div className="item-title">
                         <p>Rápida</p>
@@ -41,7 +41,7 @@ const ProductItems: React.FC<Props> = ({}) => {
                 </div>
                 <div className="item">
                     <div className="item-img">
-                        <img src="public\assets\icons\ic_menu_ninos.svg" alt="infantil" />
+                        <img src="/assets/icons/ic_menu_ninos.svg" alt="infantil" />
                     </div>
                     <div className="item-title">
                         <p>Menú Niños</p>
@@ -49,7 +49,7 @@ const ProductItems: React.FC<Props> = ({}) => {
                 </div>
                 <div className="item">
                     <div className="item-img">
-                        <img src="public\assets\icons\ic_sopas.svg" alt="sopas" />
+                        <img src="/assets/icons/ic_sopas.svg" alt="sopas" />
                     </div>
                     <div className="item-title">
                         <p>Sopas</p>
